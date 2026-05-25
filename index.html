@@ -325,6 +325,10 @@
       border-radius: 50%;
     }
     .hero__title { margin-bottom: 18px; max-width: 760px; }
+    .br-desktop { display: inline; }
+    @media (max-width: 880px) {
+      .br-desktop { display: none; }
+    }
     .hero__insight {
       font-size: clamp(22px, 2.4vw, 30px);
       font-weight: 500;
@@ -777,7 +781,7 @@
             <span class="hero__badge-dot"></span>
             Cardiovascular intelligence from mammography
           </div>
-          <h1 class="reveal reveal-delay-1 h-display hero__title">Breast cancer is feared. Heart disease is still <span class="accent">underestimated.</span></h1>
+          <h1 class="reveal reveal-delay-1 h-display hero__title">Breast cancer is feared.<br class="br-desktop"> Heart disease is still <span class="accent">underestimated.</span></h1>
           <p class="reveal reveal-delay-2 hero__insight">Every mammogram may hold a cardiovascular signal.</p>
           <p class="reveal reveal-delay-2 hero__subtitle">About 1 in 8 women in the US will develop breast cancer in her lifetime. Cardiovascular disease remains the No. 1 killer of women and causes about 1 in 3 female deaths each year. The screening infrastructure already exists. The missing layer is cardiovascular intelligence.</p>
           <div class="reveal reveal-delay-3 hero__ctas">
